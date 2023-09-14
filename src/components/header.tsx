@@ -1,17 +1,14 @@
-import Link from 'next/link';
+import NavBarLink from "./NavbarLink"
 
 const Header = () => {
     return (
-        <ul className='flex my-2'>
+        <ul className='flex py-2 bg-lime-200'>
             <li className='mx-6'>
                 Leo Alhos homepage
             </li>
-            <li className="mr-6">
-                <Link className="text-blue-500 hover:text-blue-800" href="/">Main page</Link>
-            </li>
-            <li className="mr-6">
-            <Link className="text-blue-500 hover:text-blue-800" href="/blog">Blog</Link>
-            </li>
+            <NavBarLink link="/" title="Home Page" />
+            <NavBarLink link="/about" title="About me"/>
+            <NavBarLink link="/blog" title="blog"/>
         </ul>)
 }
 
