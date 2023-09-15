@@ -3,7 +3,7 @@ export const config = {
 };
 
 const Blog = () => {
-    return <div className="m-6">Blogi</div>
-}
+  return <div className="m-6">Blogi</div>;
+};
 
-export default Blog
+export default Blog;

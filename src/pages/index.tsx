@@ -1,9 +1,9 @@
 export const config = {
-    unstable_runtimeJS: false,
+  unstable_runtimeJS: false,
 };
 
 const Index = () => {
-    return <div className="m-6">Tervetuloa sivuilleni</div>
-}
+  return <div className="m-6">Tervetuloa sivuilleni</div>;
+};
 
-export default Index
+export default Index;
