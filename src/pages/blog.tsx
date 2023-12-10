@@ -10,7 +10,7 @@ const BlogCard = (props: any) => {
   return (
     <div className="my-6">
       <Link href={`/posts/${metadata.id}`}>
-        <u>{metadata.title}</u>
+        <h2>{metadata.title}</h2>
       </Link>
       <div>
         Published {metadata.date} tags: {metadata.tags}
@@ -20,10 +20,9 @@ const BlogCard = (props: any) => {
 };
 
 const Blog = (props: any) => {
-  console.log(props.allPostsData);
   return (
     <div>
-      Blog posts:
+      <h2>Blog posts:</h2>
       {props.allPostsData.map((post: any) => (
         <BlogCard key={post.id} metadata={post} />
       ))}

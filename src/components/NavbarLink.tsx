@@ -8,7 +8,10 @@ interface Props {
 const NavBarLink = ({ link, title }: Props) => {
   return (
     <li className="mr-6">
-      <Link className="text-lime-900 hover:text-lime-500" href={link}>
+      <Link
+        className="text-black hover:text-orange-500 no-underline"
+        href={link}
+      >
         {title}
       </Link>
     </li>

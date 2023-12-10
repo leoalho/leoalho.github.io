@@ -4,6 +4,7 @@ date: "2023-08-27"
 slug: minimalist-raster-server-1
 tags: gis
 ---
+
 Originally posted on [dev.to](https://dev.to/leoalho/a-minimalist-raster-tile-server-with-express-and-postgis-79i) on 2023-08-27
 
 # A minimalist raster tile server with express and postGIS
@@ -138,7 +139,7 @@ Let us see how the application works. Below is a real time gif of my laptop rend
 
 Quite frustratingly slow, right? It takes around one second per tile for the server to render each tile. It does have its own militaresque look, but it is quite monotonous without that many features.
 
-he single tiles are served via servername/tiles/z/x/y. So for example http://localhost:8080/tiles/10/582/296 returns the following tile.
+The single tiles are served via servername/tiles/z/x/y. So for example http://localhost:8080/tiles/10/582/296 returns the following tile.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3mj3sslfukxephhfparz.png)
 

@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Header />
-      <div className="max-w-prose m-auto my-6 px-2">
+      <div className="bg-white max-w-screen-md m-auto py-6 px-2">
         <Component {...pageProps} />
       </div>
     </>
