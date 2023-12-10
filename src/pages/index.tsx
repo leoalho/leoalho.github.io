@@ -3,7 +3,12 @@ export const config = {
 };
 
 const Index = () => {
-  return <div>Welcome to my page</div>;
+  return (
+    <div>
+      Hi, I am Leo Alho, a medical doctor, full stack developer and father of
+      two. This is my developer homepage.
+    </div>
+  );
 };
 
 export default Index;
