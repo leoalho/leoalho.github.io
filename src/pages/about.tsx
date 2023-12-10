@@ -3,7 +3,7 @@ export const config = {
 };
 
 const About = () => {
-  return <div className="m-6">About me</div>;
+  return <div>About me</div>;
 };
 
 export default About;

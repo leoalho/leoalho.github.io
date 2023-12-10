@@ -3,7 +3,7 @@ export const config = {
 };
 
 const Index = () => {
-  return <div className="m-6">Tervetuloa sivuilleni</div>;
+  return <div>Welcome to my page, work in progress</div>;
 };
 
 export default Index;

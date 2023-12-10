@@ -1,3 +1,11 @@
+---
+title: A minimalist raster tile server with express and postGIS
+date: "2023-08-27"
+slug: minimalist-raster-server-1
+tags: gis
+---
+Originally posted on [dev.to](https://dev.to/leoalho/a-minimalist-raster-tile-server-with-express-and-postgis-79i) on 2023-08-27
+
 # A minimalist raster tile server with express and postGIS
 
 If one starts to read about rendering maps, it is easy to get lost in the plethora of different technologies involved. I have read about several blogposts on how to implement a vector tile server solely with postGIS but not many how to implement a raster tile server.
