@@ -8,6 +8,7 @@ const Projects = () => {
   return (
     <div>
       <h2>Projects:</h2>
+      <h2 className="my-6">Web applications:</h2>
       <div className="my-6">
         <h2>WeSail</h2>
         <div>
