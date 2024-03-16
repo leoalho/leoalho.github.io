@@ -23,6 +23,7 @@ const Header = () => {
         <NavBarLink link="/" title="Leo Alho" />
         <NavBarLink link="/blog" title="Blog" />
         <NavBarLink link="/projects" title="Projects" />
+        <NavBarLink link="/links" title="Bookmarks" />
         <div className="flex-1 flex justify-end">
           <a href="https://github.com/leoalho">
             <GithubMark />
