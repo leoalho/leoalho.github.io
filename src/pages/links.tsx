@@ -4,11 +4,11 @@ export const config = {
   unstable_runtimeJS: false,
 };
 
-const Links = (props) => {
+const Links = (props: any) => {
   return (
       <>
       <h2>Links</h2>
-      {props.linksData.map((link, index) =>  {
+      {props.linksData.map((link: any, index: number) =>  {
         return (<div key={index}>
           <a href={link.url} target="_blank">{link.title || link.url}</a>
         </div>)})}
