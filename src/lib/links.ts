@@ -15,7 +15,7 @@ export const getLinksData = () => {
     const rowsJSON = rows.map(( row) => {
         const rowArray = row.split(",")
         const rowObject = headerArray.reduce((accumulator, title, index) => {
-            const newAccumulator = {...accumulator}
+            const newAccumulator: any = {...accumulator}
             newAccumulator[title] = rowArray[index]
             return newAccumulator}, {})
         return rowObject
