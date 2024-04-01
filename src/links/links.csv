@@ -1,41 +1,41 @@
 url,title,description,category
-https://openmarine.net/openplotter,Open plotter,gis
-https://jsoncanvas.org/,JSON Canvas,dev
-https://letsbuild.ai/,Let's build ai,ai
-https://vim.rtorr.com/,Vim cheat sheet,docs
-https://dbdiagram.io/,Db diagram,dev
-https://huggingface.co/,Hugging Face,ai
-https://jqlang.github.io/jq/,jq,docs
-https://macwright.com/lonlat/,Lon lat lat lon,gis
-https://paituli.csc.fi/,Paituli,gis
-https://mathcurve.com/,ENCYCLOPÉDIE DES FORMES MATHÉMATIQUES REMARQUABLES,math
-https://tryapl.org/#,tryAPL,dev
-https://risingstars.js.org/2023/en,Js rising stars,dev
-https://csvbase.com/,csv base,dev
-https://jamstack.org/generators/,Static static site generators,dev
-https://unhosted.org/,Unhosted web apps,dev
-https://cookbook.openai.com/,Open ai cookbook,ai
-https://oeis.org/,The On-Line Encyclopedia of Integer Sequences® (OEIS®),math
-https://docs.qgis.org/3.34/en/docs/user_manual/,QGIS use guide,docs
-http://www.hisutton.com/,H I Sutton covert shores,
-https://geojson.org/,geoJSON,docs
-https://www.topografix.com/gpx.asp,GPX,docs
-https://docs.geoserver.org/2.22.x/en/user/services/wms/index.html,Web Map Service (WMS),docs
-https://permacomputing.net/,Permacomputing,dev
-https://npmtrends.com/,npm trends,dev
-http://bboxfinder.com/#0.000000,0.000000,0.000000,0.000000,bbox finder,gis
-https://owasp.org/Top10/,OWASP top 10,dev
-https://rosettacode.org/wiki/Rosetta_Code,Rosetta code,dev
-https://ogp.me/,The Open Graph protocol,docs
-https://d3js.org/d3-geo,D3-geo,docs
-https://bundlephobia.com/,Bundlephobia,dev
-https://www.mathjax.org/,MathJax,docs
-https://regex101.com/,Regex101,dev
-https://turfjs.org/,docs
-https://heroicons.com/,Heroicons,docs
-https://naturalatlas.github.io/node-gdal/,Node-gdal,docs
-https://proj.org/en/9.3/,proj,docs
-https://date-fns.org/,date-fns,docs
-https://kartta.paikkatietoikkuna.fi,Paikkatietoikkuna,gis
-https://www.whiteboxgeo.com/,White box geospatial,gis
-https://webdevelopmenthistory.com/index/,Web development history,history
+https://openmarine.net/openplotter,Open plotter,,gis
+https://jsoncanvas.org/,JSON Canvas,,dev
+https://letsbuild.ai/,Let's build ai,,ai
+https://vim.rtorr.com/,Vim cheat sheet,,docs
+https://dbdiagram.io/,Db diagram,,dev
+https://huggingface.co/,Hugging Face,,ai
+https://jqlang.github.io/jq/,jq,,docs
+https://macwright.com/lonlat/,Lon lat lat lon,,gis
+https://paituli.csc.fi/,Paituli,,gis
+https://mathcurve.com/,ENCYCLOPÉDIE DES FORMES MATHÉMATIQUES REMARQUABLES,,math
+https://tryapl.org/#,tryAPL,,dev
+https://risingstars.js.org/2023/en,Js rising stars,,dev
+https://csvbase.com/,csv base,,dev
+https://jamstack.org/generators/,Static static site generators,,dev
+https://unhosted.org/,Unhosted web apps,,dev
+https://cookbook.openai.com/,Open ai cookbook,,ai
+https://oeis.org/,The On-Line Encyclopedia of Integer Sequences® (OEIS®),,math
+https://docs.qgis.org/3.34/en/docs/user_manual/,QGIS use guide,,docs
+http://www.hisutton.com/,H I Sutton covert shores,,other
+https://geojson.org/,geoJSON,,docs
+https://www.topografix.com/gpx.asp,GPX,,docs
+https://docs.geoserver.org/2.22.x/en/user/services/wms/index.html,Web Map Service (WMS),,docs
+https://permacomputing.net/,Permacomputing,,dev
+https://npmtrends.com/,npm trends,,dev
+http://bboxfinder.com/,bbox finder,,gis
+https://owasp.org/Top10/,OWASP top 10,,dev
+https://rosettacode.org/wiki/Rosetta_Code,Rosetta code,,dev
+https://ogp.me/,The Open Graph protocol,,docs
+https://d3js.org/d3-geo,D3-geo,,docs
+https://bundlephobia.com/,Bundlephobia,,dev
+https://www.mathjax.org/,MathJax,,docs
+https://regex101.com/,Regex101,,dev
+https://turfjs.org/,,docs
+https://heroicons.com/,Heroicons,,docs
+https://naturalatlas.github.io/node-gdal/,Node-gdal,,docs
+https://proj.org/en/9.3/,proj,,docs
+https://date-fns.org/,date-fns,,docs
+https://kartta.paikkatietoikkuna.fi,Paikkatietoikkuna,,gis
+https://www.whiteboxgeo.com/,White box geospatial,,gis
+https://webdevelopmenthistory.com/index/,Web development history,,history
