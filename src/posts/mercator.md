@@ -1,6 +1,6 @@
 ---
 title: An easy introduction to Webmercator
-date: "2024-01-01"
+date: "2024-04-01"
 slug: webmercator
 tags: gis
 ---
