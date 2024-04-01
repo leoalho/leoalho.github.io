@@ -11,12 +11,12 @@ tags: gis
 
 The Mercator projection has been around for almost 500 years. During its history it has seen many roles. It started as an answer to the needs of naval navigation, continued to the de facto projection used in atlases, and now the mercator projection has experienced a new dawn in the form of webmercator, arguably being as relevant as ever. Map projections can be a tricky subject. I have written this article to hopefully give myself some clarity concerning the topic. In this article I am going to go through how a mercator and more specifically web mercator map is formed and what makes a web mercator map differ from a normal mercator map. A basic understanding of trigonometry and calculus is recommended.
 
-Projecting from a globe to a 2D surface is a funamental problem in cartography. It is not possible isometrically (without any distortions), therefore a map is always a compromise, usually focusing on one key metric that it displays truthfully. Common metrics that cartographers are interested in are distance, area, shape and direction. The mercator projection is classified as a conformal projection, meaning it retains direction but not distance or shape. This causes a straight line on a Mercator map would be a loxodrome (also alled rhumb line) on the globe.<br>
+Projecting from a globe to a 2D surface is a funamental problem in cartography. It is not possible isometrically (without any distortions), therefore a map is always a compromise, usually focusing on one key metric that it displays truthfully. Common metrics that cartographers are interested in are distance, area, shape and direction. The mercator projection is classified as a conformal projection, meaning it retains direction but not distance or shape. This causes a straight line on a Mercator map would be a loxodrome (also alled rhumb line) on the globe.\
 
-A loxodrome running from pole to pole:<br>
+A loxodrome running from pole to pole:\
 ![loxodrome](/assets/images/loxodrome.png)
 
-This is optimal in seafaring, because you can easily see where you will end up when you keep a certain bearing. As a downside it does not display areas uniformly; areas are enlarged the closer to the poles one goes. This has caused critique towards the Mercator projection, because it shows espcially Europe to be grander than it is in relation to for example Africa. I would argue that atleast in the 16th century the mercator projection was created as a solution to a relevant naval problem and not as nationalistic propaganda.<br>
+This is optimal in seafaring, because you can easily see where you will end up when you keep a certain bearing. As a downside it does not display areas uniformly; areas are enlarged the closer to the poles one goes. This has caused critique towards the Mercator projection, because it shows espcially Europe to be grander than it is in relation to for example Africa. I would argue that atleast in the 16th century the mercator projection was created as a solution to a relevant naval problem and not as nationalistic propaganda.\
 An other handy feature that comes with conformity, is that since Mercator retains direction, it means that north is always up on the map. This might sound funny since we are so used to conformal projetions nowadays. In addition all parallels and meridians are straight lines.
 
 ## Scale factor
@@ -33,17 +33,18 @@ Calculating the scale factor and therefore the integral of the secant has been h
 
 Let's derive the formula for the integral of the secant, because at least for me it is not that intuitive. There are several ways to derive the formula (most notably substitution, partial fractions, trigonometric formulas, hyperbolic functions). For me the substitution method has always been the easiest to grasp:
 
-We will use substitution u = sec x + tan x.<br>
-Since the derivatives of sec x (sec x tan x) and tan x (sec^2x) have sec x as a common factor, we get<br>du = sec x tan x + sec^2x.
+We will use substitution u = sec x + tan x.\
+Since the derivatives of sec x (sec x tan x) and tan x (sec^2x) have sec x as a common factor, we get\
+du = sec x tan x + sec^2x.
 
-Now:<br>
-∫ sec x dx<br>
-= ∫ sec x (sec x + tan x) / (sec x + tan x) dx<br>
-= ∫ (sec^2x + sec x tan x) / (sec x + tan x) dx<br>
-Substituting u in the above integral we get<br>
-∫ du / u = ln |u| + C<br>
-And now substituting u = sec x + tan x back we get<br>
-ln |sec x + tan x| + C<br>
+Now:\
+∫ sec x dx\
+= ∫ sec x (sec x + tan x) / (sec x + tan x) dx\
+= ∫ (sec^2x + sec x tan x) / (sec x + tan x) dx\
+Substituting u in the above integral we get\
+∫ du / u = ln |u| + C\
+And now substituting u = sec x + tan x back we get\
+ln |sec x + tan x| + C\
 
 In addition to ln | sec x + tan x | C the integral of the secant posesses two other equivalent trigonometric identities: ½ ln((1+sin x)/(1-sin x))+C and ln | tan (x/2 + π/4) |. Usually the identity that is most convenient is used (as demonstrated in the example below)
 
@@ -53,11 +54,11 @@ If you have been paying attention, you might now mention that yes this works on 
 
 I mentioned earlier that by placing the origin of the map at (0,0), we have a potential coordinate range of ([-90,90],[-180,180]). However as the scale factor approached infinite as the absolute value of latitude approached 90, we need to cap the range of the y-axis to a certain value. Internet map clients usually display their maps as square tiles. The tile at zoom level 0 coveres the entire world. Therefore in webMercator such coordinates are chosen that the resulting map is a square. This can be calculated by solving x of 2πR = 2Rln|tan(π/4 + x/2)|:
 
-2πR = 2Rln[tan(π/4 + x/2)]<br>
-π = ln[tan(π/4 + x/2)]<br>
-e^π = tan(π/4 + x/2)<br>
-arctan(e^π) = π/4 + x/2<br>
-x = 2arctan(e^π) - π/2 ≈ 85.05112878°<br>
+2πR = 2Rln[tan(π/4 + x/2)]\
+π = ln[tan(π/4 + x/2)]\
+e^π = tan(π/4 + x/2)\
+arctan(e^π) = π/4 + x/2\
+x = 2arctan(e^π) - π/2 ≈ 85.05112878°\
 
 So if we want to display the globe as a square in a spherical mercator projection, we need to cap the y-axis to ±85.05112878°.
 
