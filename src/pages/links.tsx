@@ -1,19 +1,46 @@
-import {getLinksData} from "@/src/lib/links";
+import { getLinksData } from "@/src/lib/links";
 
 export const config = {
   unstable_runtimeJS: false,
 };
 
 const Links = (props: any) => {
+  const sections = [
+    { name: "Programming", slug: "dev" },
+    { name: "Documentation", slug: "docs" },
+    { name: "GIS", slug: "gis" },
+    { name: "Mathematics", slug: "math" },
+    { name: "History", slug: "history" },
+    { name: "Other", slug: "other" },
+  ];
+
   return (
-      <>
+    <>
       <h2>Links</h2>
-      {props.linksData.map((link: any, index: number) =>  {
-        return (<div key={index}>
-          <a href={link.url} target="_blank">{link.title || link.url}</a>
-        </div>)})}
-      </>
-  )
+      {sections.map((section: any, sectionIndex: number) => {
+        return (
+          <details key={sectionIndex}>
+            <summary>
+              <b>{section.name}</b>
+            </summary>
+            <p>
+              {props.linksData
+                .filter((link: any) => link.category === section.slug)
+                .map((link: any, index: number) => {
+                  return (
+                    <div key={index}>
+                      <a href={link.url} target="_blank">
+                        {link.title || link.url}
+                      </a>
+                    </div>
+                  );
+                })}
+            </p>
+          </details>
+        );
+      })}
+    </>
+  );
 };
 
 export default Links;
