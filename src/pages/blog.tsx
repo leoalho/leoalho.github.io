@@ -12,9 +12,7 @@ const BlogCard = (props: any) => {
       <Link href={`/posts/${metadata.id}`}>
         <h2>{metadata.title}</h2>
       </Link>
-      <div>
-        Published {metadata.date} tags: {metadata.tags}
-      </div>
+      <div>Published {metadata.date}</div>
     </div>
   );
 };
