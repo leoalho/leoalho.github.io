@@ -26,6 +26,11 @@ const Links = (props: any) => {
             <p>
               {props.linksData
                 .filter((link: any) => link.category === section.slug)
+                .sort((a: any, b: any) => {
+                  var titleA = a.title.toUpperCase();
+                  var titleB = b.title.toUpperCase();
+                  return titleA < titleB ? -1 : titleA > titleB ? 1 : 0;
+                })
                 .map((link: any, index: number) => {
                   return (
                     <div key={index}>
