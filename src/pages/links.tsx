@@ -11,6 +11,7 @@ const Links = (props: any) => {
     { name: "GIS", slug: "gis" },
     { name: "Mathematics", slug: "math" },
     { name: "History", slug: "history" },
+    { name: "Blogs", slug: "blog" },
     { name: "Other", slug: "other" },
   ];
 
