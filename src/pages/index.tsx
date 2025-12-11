@@ -6,35 +6,17 @@ export const config = {
 const Index = () => {
   return (
     <div>
-      <div>
+      <div className="my-4">
         Hi, I am Leo Alho, a medical doctor, full stack developer and father of
-        two. This is my developer homepage.
+        three. This is my developer homepage.
       </div>
-      <div className="my-6">
-        <h2>My current preferred stack for web applications:</h2>
-        <ul className="ml-6">
-          <li>Frontend: Next.js (with Typescript), tailwind/css</li>
-          <li>Backend: Typescript, Express, socket.io</li>
-          <li>Formatting: ESLINT, Prettier</li>
-          <li>Testing: Jest (unit), Cypress (E2E)</li>
-          <li>
-            Databases: PostgreSQL (PostGIS), SQLite for small apps and
-            sideprojects
-          </li>
-          <li>CI/CD: Github actions</li>
-          <li>
-            DevOps: Digital Ocean, Ubuntu Server 22.04 LTS, Docker (Docker
-            swarm), NGINX (load balancing)
-          </li>
-          <li>UI design: Figma</li>
-        </ul>
+      <div className="my-4">
+        I am currently building <a href={"https://octofy.ai"}>Octofy.ai</a>, the
+        best possible AI chat platform.
       </div>
       <div>
-        <h2>I'm currently learning:</h2>
-        <ul className="ml-6">
-          <li>SASS</li>
-          <li>Playwright</li>
-        </ul>
+        Want to be in touch? Contact me by emailing{" "}
+        <a href={"mailto:leo@alho.dev"}>leo@alho.dev</a>
       </div>
     </div>
   );
