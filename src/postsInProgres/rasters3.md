@@ -1,3 +1,10 @@
+---
+title: A minimalist raster tile server with express and postGIS — part 3. Speeding things up
+date: "2023-08-31"
+slug: minimalist-raster-server-3
+tags: gis
+---
+
 A minimalist raster tile server with express and postGIS — part 3. Speeding things up
 =====================================================================================
 So far we have created a minimal map tile server that renders it tiles with postGIS. Our tiles have slowly gotten some features on it.
@@ -99,5 +106,3 @@ We now have a tile server that renders .png tiles directly with postGIS. We have
 The code for this part can be found in [this github repository](https://github.com/leoalho/tileserver) under the ‘main’ branch.
 This is probably the last part of this series.
 Thank you for reading, comments, critique and suggestions are welcome as always.
-
-_Originally published at_ [_https://dev.to_](https://dev.to/leoalho/a-minimalist-raster-tile-server-with-express-and-postgis-part-3-speeding-things-up-1b7) _on August 31, 2023._
