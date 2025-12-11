@@ -13,7 +13,9 @@ const Projects = () => {
         <h2>WeSail</h2>
         <div>
           A social media application for logging planning and sharing sail trips
-          and boat maintenance.
+          and boat maintenance. Written mainly in the beginning of 2023. Built
+          as the final project for the{" "}
+          <Link href="https://fullstackopen.com">fullstackopen</Link> course.
         </div>
         <div>
           Main technologies used:
@@ -27,7 +29,7 @@ const Projects = () => {
           </div>
         </div>
         <div>
-          <Link href="https://joukko.io">Link to running app</Link>
+          <Link href="https://wesail.alho.dev">Link to running app</Link>
           <Link href="https://github.com/leoalho/WeSail" className="ml-3">
             Github
           </Link>

@@ -6,9 +6,17 @@ export const config = {
 const Index = () => {
   return (
     <div>
-      <div>
+      <div className="my-4">
         Hi, I am Leo Alho, a medical doctor, full stack developer and father of
-        two. This is my personal homepage.
+        three. This is my developer homepage.
+      </div>
+      <div className="my-4">
+        I am currently building <a href={"https://octofy.ai"}>Octofy.ai</a>, the
+        best possible AI chat platform.
+      </div>
+      <div>
+        Want to be in touch? Contact me by emailing{" "}
+        <a href={"mailto:leo@alho.dev"}>leo@alho.dev</a>
       </div>
     </div>
   );
