@@ -8,6 +8,7 @@ const Links = (props: any) => {
   const sections = [
     { name: "Programming", slug: "dev" },
     { name: "Documentation", slug: "docs" },
+    { name: "AI", slug: "ai"},
     { name: "GIS", slug: "gis" },
     { name: "Mathematics", slug: "math" },
     { name: "History", slug: "history" },
@@ -17,6 +18,7 @@ const Links = (props: any) => {
 
   return (
     <>
+      <div className="mb-4">This page acts as a place for me to easily follow bookmarks that I anticipate reading more often than once. Most of them are in my opinion interesting and/or useful.</div>
       <h2>Links</h2>
       {sections.map((section: any, sectionIndex: number) => {
         return (
@@ -24,7 +26,7 @@ const Links = (props: any) => {
             <summary>
               <b>{section.name}</b>
             </summary>
-            <p>
+            <div className="ml-2">
               {props.linksData
                 .filter((link: any) => link.category === section.slug)
                 .sort((a: any, b: any) => {
@@ -41,7 +43,7 @@ const Links = (props: any) => {
                     </div>
                   );
                 })}
-            </p>
+            </div>
           </details>
         );
       })}

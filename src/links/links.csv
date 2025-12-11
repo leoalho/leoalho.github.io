@@ -1,4 +1,4 @@
-url,title,description,category
+url,title,description,category,
 https://openmarine.net/openplotter,Open plotter,,gis
 https://jsoncanvas.org/,JSON Canvas,,dev
 https://letsbuild.ai/,Let's build ai,,ai
@@ -41,3 +41,5 @@ https://www.whiteboxgeo.com/,White box geospatial,,gis
 https://webdevelopmenthistory.com/index/,Web development history,,history
 https://bbycroft.net/llm,LLM Visualization,,ai
 https://frankzliu.com/,Frank Liu,,blog
+https://www.erdosproblems.com/,Erdos Problems,,math
+https://metr.org/,Model Evaluation & Threat Research,,ai
