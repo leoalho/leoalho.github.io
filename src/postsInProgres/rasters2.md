@@ -1,3 +1,10 @@
+---
+title: A minimalist raster tile server with express and postGIS — part 2. Adding more features
+date: "2023-08-29"
+slug: minimalist-raster-server-2
+tags: gis
+---
+
 A minimalist raster tile server with express and postGIS — part 2. Adding more features
 =======================================================================================
 
@@ -69,5 +76,3 @@ The main problem is again speed, at this moment it is even worse than before. Ag
 ![captionless image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*p2nesMLX5DEFtjVaXPvKBQ.gif)
 
 Speeding up our server will be the topic of our next part. Thank you again for reading. Any comments are more than welcome.
-
-_Originally published at_ [_https://dev.to_](https://dev.to/leoalho/a-minimalist-raster-tile-server-with-express-and-postgis-part-2-adding-more-features-2d0c) _on August 29, 2023._
