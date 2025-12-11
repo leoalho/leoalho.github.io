@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Leo Alho's homepage</title>
+        <script defer data-domain="alho.dev" src="https://analytics.octofy.ai/js/script.js"></script>
       </Head>
       <Header />
       <div className="bg-white max-w-screen-md m-auto py-6 px-2">

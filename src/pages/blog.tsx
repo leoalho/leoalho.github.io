@@ -21,7 +21,9 @@ const Blog = (props: any) => {
   return (
     <div>
       <h2>Blog posts:</h2>
-      {props.allPostsData.map((post: any) => (
+      {props.allPostsData.sort((a: any,b: any) => {
+        return b.date > a.date
+      }).map((post: any) => (
         <BlogCard key={post.id} metadata={post} />
       ))}
     </div>

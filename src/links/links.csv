@@ -1,4 +1,4 @@
-url,title,description,category
+url,title,description,category,
 https://openmarine.net/openplotter,Open plotter,,gis
 https://jsoncanvas.org/,JSON Canvas,,dev
 https://letsbuild.ai/,Let's build ai,,ai
@@ -31,7 +31,7 @@ https://d3js.org/d3-geo,D3-geo,,docs
 https://bundlephobia.com/,Bundlephobia,,dev
 https://www.mathjax.org/,MathJax,,docs
 https://regex101.com/,Regex101,,dev
-https://turfjs.org/,,docs
+https://turfjs.org/,Turf js,,docs
 https://heroicons.com/,Heroicons,,docs
 https://naturalatlas.github.io/node-gdal/,Node-gdal,,docs
 https://proj.org/en/9.3/,proj,,docs
@@ -39,3 +39,7 @@ https://date-fns.org/,date-fns,,docs
 https://kartta.paikkatietoikkuna.fi,Paikkatietoikkuna,,gis
 https://www.whiteboxgeo.com/,White box geospatial,,gis
 https://webdevelopmenthistory.com/index/,Web development history,,history
+https://bbycroft.net/llm,LLM Visualization,,ai
+https://frankzliu.com/,Frank Liu,,blog
+https://www.erdosproblems.com/,Erdos Problems,,math
+https://metr.org/,Model Evaluation & Threat Research,,ai
