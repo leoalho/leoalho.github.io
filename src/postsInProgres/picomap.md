@@ -1,3 +1,10 @@
+---
+title: Picomap — the smallest JS web map
+date: "2024-07-11"
+slug: picomap
+tags: gis
+---
+
 Picomap — the smallest JS web map
 =================================
 Introduction
@@ -207,5 +214,3 @@ Also here are some ideas to play with if you want to fork the project and experi
 *   Add animation to moving and zooming
 *   Add drag to move
 *   Make it possible to rotate the map
-
-_Originally published at_ [_https://dev.to_](https://dev.to/leoalho/picomap-the-smallest-js-web-map-18o0) _on December 12, 2023._
