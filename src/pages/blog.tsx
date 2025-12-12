@@ -10,7 +10,7 @@ const BlogCard = (props: any) => {
   return (
     <div className="my-6">
       <Link href={`/posts/${metadata.id}`}>
-        <h2>{metadata.title}</h2>
+        {metadata.title}
       </Link>
       <div>Published {metadata.date}</div>
     </div>

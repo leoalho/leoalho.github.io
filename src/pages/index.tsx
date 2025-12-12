@@ -16,7 +16,7 @@ const Index = () => {
       </div>
       <div>
         Want to be in touch? Contact me by emailing{" "}
-        <a href={"mailto:leo@alho.dev"}>leo@alho.dev</a>
+        <a href={"mailto:leo@alho.dev"}>leo@alho.dev</a>. I am especially interested iin discussing projects related to health tech and the European sovereign cloud.
       </div>
     </div>
   );
