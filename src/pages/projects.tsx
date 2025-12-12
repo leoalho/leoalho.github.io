@@ -12,7 +12,7 @@ const Projects = () => {
       <div className="my-6">
         <h2>Maaperämyyrä</h2>
         <div>
-          A simple web application for visualizing the borders, building and soil composure of a given plot in Finland. Also has a chrome extension that adds the visualization directly to etuovi.com, one of Finland's largest platforms for listing properties.
+          A simple web application for visualizing the borders, building and soil composure of a given plot in Finland. Also has a chrome extension that adds the visualization directly to etuovi.com, one of Finland&apos;s largest platforms for listing properties.
         </div>
         <div className="my-2">
           Main technologies used:
