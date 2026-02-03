@@ -9,7 +9,7 @@ The past month I have been building [Tableport](https://tableport.gg) as a contr
 
 [ ] Create a sitemap.xml file
 [ ] Create a robots.txt file
-[ ] Create a llms.txt fileHow
+[ ] Create a llms.txt file
 [ ] Add site to Google Search console
 	[ ]  Check that the site is indexed
 	[ ]  Resolve any potential issues
