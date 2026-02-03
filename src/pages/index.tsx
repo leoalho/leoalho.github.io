@@ -11,8 +11,11 @@ const Index = () => {
         three. This is my developer homepage.
       </div>
       <div className="my-4">
-        I am currently building <a href={"https://octofy.ai"}>Octofy.ai</a>, the
-        best possible AI chat platform.
+        I am currently building:<br>
+        - <a href={"https://octofy.ai"}>Octofy.ai</a>, a multi LLM AI chat application<br>
+        - <a href={"https://polle.fi"}>Polle.fi</a>, a horse sales platform<br>
+        - <a href={"https://openissue.io"}>Openissue.io</a>, public linear boards<br>
+        - <a href={"https://tableport.gg"}>Tableport.gg</a>. a boardgame collection management and logistics platform.  
       </div>
       <div>
         Want to be in touch? Contact me by emailing{" "}
