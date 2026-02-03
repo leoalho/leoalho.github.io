@@ -13,12 +13,12 @@ The past month I have been building [Tableport](https://tableport.gg) as a contr
 - [ ] Create a robots.txt file
 - [ ] Create a llms.txt file
 - [ ] Add site to Google Search console
-    - [ ]  Check that the site is indexed
-	- [ ]  Resolve any potential issues
-	- [ ]  Add your sitemap.xml
+    - [ ] Check that the site is indexed
+    - [ ] Resolve any potential issues
+    - [ ] Add your sitemap.xml
 - [ ] Add site to Bing Webmaster tools (I usually import from google search)
-	- [ ] Check that the site is indexed
-	- [ ] Add your sitemap.xml
+    - [ ] Check that the site is indexed
+    - [ ] Add your sitemap.xml
 - [ ] Setup an analytics platform*
 - [ ] Add metadata to your relevant pages (meta titles and descriptions JSON-LD and OpenGraph cards)
 - [ ] Setup Google Lighthouse review**
